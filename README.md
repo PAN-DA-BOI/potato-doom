@@ -8,5 +8,10 @@
 sudo git https://github.com/PAN-DA-BOI/potato-doom.git
 cd potato-doom
 chmod +x ./setup.sh
+```
+
+the set up script will need a flag for each potato being set up
+
+```
 ./setup.sh
 ```
