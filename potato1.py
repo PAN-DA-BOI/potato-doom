@@ -1,5 +1,6 @@
 import os
 import tkinter as tk
+from tkinter.ttk import *
 from PIL import Image, ImageTk
 import subprocess
 
