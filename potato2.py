@@ -17,9 +17,9 @@ def clear_screen():
         widget.destroy()
 
 def start():
-    if connect[0] == 1:
+    if connect[0] == 2:
         command = ['./host.sh', str(connect[1])]
-    elif connect[0] == 2:
+    elif connect[0] == 1:
         command = ['./join.sh', str(connect[0]), str(connect[1])]
     elif connect[0] ==3:
         command = ['./join.sh', str(connect[0]), str(connect[1])]
@@ -92,8 +92,8 @@ def Main_menu():
     label = Label(master=frame, text="Host 1", bg="#E4E2E2", fg="#000")
     label.place(x=91, y=56, width=422, height=125)
 
-    Button(main, text="Host Game", command=host1).place(x=144, y=444, width=300, height=300)
-    Button(main, text="Connect To Host 2", command=host2).place(x=588, y=444, width=300, height=300)
+    Button(main, text="Host Game", command=host2).place(x=144, y=444, width=300, height=300)
+    Button(main, text="Connect To Host 1", command=host1).place(x=588, y=444, width=300, height=300)
     Button(main, text="Connect To Host 3", command=host3).place(x=1032, y=444, width=300, height=300)
     Button(main, text="Connect To Host 4", command=host4).place(x=1476, y=444, width=300, height=300)
 
