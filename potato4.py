@@ -89,7 +89,7 @@ def Main_menu():
     frame = Frame(master=main, bg="#EDECEC")
     frame.place(x=104, y=99, width=613, height=218)
 
-    label = Label(master=frame, text="Host 1", bg="#E4E2E2", fg="#000")
+    label = Label(master=frame, text="Host 4", bg="#E4E2E2", fg="#000")
     label.place(x=91, y=56, width=422, height=125)
 
     Button(main, text="Host Game", command=host4).place(x=144, y=444, width=300, height=300)
