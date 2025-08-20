@@ -12,6 +12,8 @@ chmod +x ./setup.sh
 
 the set up script will need a flag for each potato being set up
 
+use numbers 1 through 4 to entail which potato you are setting up
+
 ```
 ./setup.sh
 ```
